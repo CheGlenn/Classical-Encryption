@@ -9,3 +9,5 @@ Maria Rodriguez - Maria helped me to understand the math behind looping back to 
 
 Update 10/3:
 Updated VigenereCipher.java to include a 3rd method, keyCreator, that creates appropriate length keys for encryption. Also updated encryption and decryption math to accurately encrypt and decrypt. Fixed style.
+
+Updated CaeserCipher.java to properly do encryption and decryption math. Also adjusted style, and fixed bug where encode and decode used the last generated code word as the word to encrypt/decrypt instead of the inputted word.
